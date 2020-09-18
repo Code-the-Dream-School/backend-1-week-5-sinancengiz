@@ -7,6 +7,7 @@ class Timer
 
   def time_string
     time = Time.at(@seconds).utc.strftime("%H:%M:%S")
+    return time
   end
 
 end
